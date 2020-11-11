@@ -35,4 +35,23 @@ RSpec.describe Note, type: :model do
     expect(Note.search("message")).to be_empty
   end
 
+  describe "search message for a term" do
+    before do
+      # 検索機能の全テスト関連する追加のテストデータをセットアップする
+    end
+
+    context "when a match is foudn" do
+      # 一致する場合の examples
+    end
+
+    context "when no match is found" do
+      # 一致しない場合の examples
+    end
+  end
+
+# describe "クラスやシステムの機能に関するアウトライン" do
+#   context "特定の状態に関するアウトライン" do
+#     # examples
+#   end
+# end
 end
